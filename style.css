@@ -1,0 +1,63 @@
+p {
+    margin: auto;
+	font-size: 14px;
+	font-family: Arial, serif;
+	color: red;
+    letter-spacing: 1px;
+
+}
+body {
+    max-width: 90%;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #274751;
+    background: linear-gradient(90deg, rgb(208, 183, 232), rgb(166, 204, 243));
+    background-image: url(images/clouds.webp);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:inline-block;
+    justify-content: center;
+    position: relative;
+
+}
+
+blockquote {
+    width:50%;
+    margin:auto;
+    font-size: 160%;
+    background-color: rgb(241, 239, 239);
+    border-left-style: solid;
+    border-left-color: firebrick;
+    border-left-width: 3px;
+    padding: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+q {
+    font-style: italic;
+}
+a {
+    text-decoration: none;
+    size: 10px;
+}
+
+a:visited {
+    color: royalblue;
+}
+a:hover {
+    text-decoration: underline;
+}
+.good {
+    text-transform: uppercase;
+    color: green;
+}
+.bad {
+    text-transform: uppercase;
+    color: red;
+}
+tr {
+    background-color: burlywood;
+}
